@@ -9,15 +9,15 @@ struct Vertex
 
 struct Face
 {
-    int indicies[4096];
+    int indicies[8192];
 
     int ctVertex;
 };
 
 struct Model
 {
-    struct Vertex vertexArr[4096];
-    struct Face   faceArr[4096];
+    struct Vertex vertexArr[8192];
+    struct Face   faceArr[8192];
 
     int ctVertex;
     int ctFace;
